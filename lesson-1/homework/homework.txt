@@ -1,0 +1,107 @@
+Lesson 1
+Topic: Introduction to Power BI
+1. What is Power BI, and what are its three main components?
+Power BI is a powerful business analytics tool developed by Microsoft. It allows users to connect to various data sources, transform and model the data, create interactive visualizations, and share insights across an organization.
+Three main components of Power BI:
+•	Power BI Desktop: A Windows application used for creating reports and data models.
+•	Power BI Service: A cloud-based service for publishing, sharing, and collaborating on reports and dashboards.
+•	Power BI Mobile: A mobile app for accessing and interacting with reports on smartphones and tablets.
+•	
+2. Name two business use cases for Power BI dashboards.
+•	Sales Performance Tracking: A dashboard can show sales trends, targets vs. actuals, regional performance, and individual salesperson metrics.
+•	Financial Reporting: Power BI can be used to monitor cash flow, profit & loss statements, budget vs. actual expenses, and other KPIs.
+
+3. How do you download and install Power BI Desktop?
+1.	Visit the official site: https://powerbi.microsoft.com.
+2.	Click on “Download” > Power BI Desktop.
+3.	You’ll be redirected to the Microsoft Store or get a direct download link for the .exe installer.
+4.	Download the installer, run it, and follow the setup wizard to install Power BI Desktop on your computer.
+4. What is the difference between Power BI Desktop and Power BI Service?
+•	Power BI Desktop is a free, offline Windows application used to create data models, clean and transform data, and design reports.
+•	Power BI Service is an online platform (app.powerbi.com) used to publish, view, and share reports and dashboards. It also provides collaboration features like data alerts, sharing, and scheduled refreshes.
+5. What file extension does a Power BI project use?
+Power BI projects created in Power BI Desktop are saved with the .pbix file extension.
+
+6. Explain the role of Power Query in Power BI.
+Power Query is the data connection and transformation tool in Power BI. It enables users to:
+•	Connect to various data sources (Excel, databases, web, APIs, etc.)
+•	Clean, shape, and transform data using a user-friendly interface
+•	Automate data preparation tasks through applied steps and M code
+It’s used in the “Transform Data” section of Power BI Desktop before creating visuals.
+
+7. Why would a business prefer Power BI over Excel for reporting?
+Businesses may prefer Power BI because:
+•	It offers real-time and interactive dashboards.
+•	Power BI handles large datasets better than Excel.
+•	It provides automated data refresh, better visualization options, and easier sharing via the cloud.
+•	It allows integration with many external services and live data sources.
+
+8. Describe one limitation of the free version of Power BI.
+One major limitation is that you cannot share reports and dashboards with other users via the Power BI Service unless you have a Pro or Premium license. Also, features like collaboration and app workspaces are not available in the free version.
+
+9. What is a "published report" in Power BI Service?
+A published report is a report that has been created in Power BI Desktop and uploaded to the Power BI Service. Once published, it can be accessed online, shared with others, embedded in websites or apps, and scheduled for data refresh.
+
+10. How does Power BI Mobile enhance accessibility?
+Power BI Mobile makes reports and dashboards accessible from anywhere using a mobile device. It allows users to:
+•	View and interact with visualizations on smartphones or tablets
+•	Get notifications for data alerts
+•	Use touch-optimized visuals for easier navigation
+This supports decision-making on the go and keeps stakeholders updated in real time.
+11. Compare Power BI with Tableau — Pros and Cons
+Feature	Power BI	Tableau
+Ease of Use	Easier for beginners, especially Excel users	Steeper learning curve but more flexible
+Cost	More affordable; free version available	More expensive, especially at scale
+Integration	Strong with Microsoft tools (Excel, Azure, Teams)	Strong with a wide variety of databases
+Data Modeling	Built-in DAX language, tight with data models	Great visualization, but modeling is less central
+Visualizations	Good, with consistent UI	More advanced and customizable visuals
+Deployment	Cloud-first, simple sharing via Microsoft account	Strong server-based options and flexibility
+Community & Support	Large Microsoft community, constant updates	Strong Tableau community, excellent resources
+
+12. Explain how Power BI integrates with Azure services
+Power BI integrates deeply with several Azure services to enhance data analytics, AI, and scalability:
+•	Azure SQL Database / Synapse Analytics: Connects for real-time querying of large-scale data warehouses.
+•	Azure Data Lake Storage: Access raw and processed data for advanced analysis.
+•	Azure Machine Learning: Incorporate ML models into Power BI reports for predictive analytics.
+•	Azure Active Directory (AAD): Handles secure authentication and user access.
+•	Azure Analysis Services: Allows advanced semantic modeling with large datasets.
+•	Azure Logic Apps / Data Factory: Automates data pipelines and refreshes for Power BI.
+Benefit: This tight integration allows businesses to build end-to-end data solutions—from ingestion to advanced analytics—within Microsoft’s ecosystem.
+
+13. What are "gateways" in Power BI, and when are they needed?
+Gateways are bridge applications that allow Power BI Service (cloud) to securely access on-premises data sources.
+Types of Gateways:
+•	Personal Gateway: For individual use, supports scheduled refresh only.
+•	Standard (Enterprise) Gateway: For teams, supports both live connections and scheduled refreshes.
+When are they needed?
+•	When your data is stored locally (e.g., SQL Server, Excel on a company server).
+•	To keep your cloud reports updated with on-prem data without uploading data manually.
+Example: A retail company stores its sales data on a local SQL Server but wants to view dashboards online. A gateway connects Power BI Service to that local database.
+
+14. How would you convince a company to adopt Power BI? (ROI Argument)
+Return on Investment (ROI) argument for Power BI:
+•	Cost-effective: Power BI is cheaper than most BI tools (starting at free or $10/user/month for Pro), reducing software licensing costs.
+•	Time-saving: Automates reporting processes and data refreshes, reducing time spent on manual Excel reporting.
+•	Better insights = better decisions: Real-time dashboards and visuals help executives make faster, more informed decisions.
+•	Productivity boost: Employees spend less time gathering data and more time analyzing and acting on it.
+•	Scalability: Easily scales from a small team to an enterprise, with Power BI Premium.
+•	Integration: Works seamlessly with existing Microsoft infrastructure (Excel, Teams, SharePoint, Azure).
+Example: “By switching from manual Excel reports to Power BI, your finance team could save 10+ hours per week, while management gets real-time insights—resulting in faster response to revenue or cost changes.”
+
+15. What security features does Power BI offer for sensitive data?
+Power BI offers strong enterprise-grade security to protect sensitive business data:
+1.	Row-Level Security (RLS): Restricts access to data within a report based on user roles (e.g., sales reps only see their region).
+2.	Azure Active Directory (AAD): Manages user authentication and integrates with existing corporate identity systems.
+3.	Data Encryption:
+o	Data is encrypted at rest and in transit.
+o	Optional Bring Your Own Key (BYOK) support in Premium.
+4.	Microsoft Information Protection (MIP):
+o	Allows labeling reports as “Confidential,” “Internal,” etc.
+o	Enforces data loss prevention policies.
+5.	Auditing & Monitoring:
+o	Power BI logs all user access and actions for compliance and security tracking.
+6.	Sensitivity Labels & Integration with Microsoft Purview: Helps classify and govern data access across platforms.
+7.	Service Principals & Tenant Settings: Controls over who can publish content, access APIs, or use external sharing.
+Benefit: These features ensure that sensitive financial, HR, or customer data remains accessible only to authorized users—even in large or distributed organizations.
+
+v
